@@ -1,3 +1,5 @@
+Install P2RANK(https://github.com/rdk/p2rank/blob/develop/documentation/user-guide.md#1-introduction) first
+
 **make own prank pocket predictions (P2RANK)**
 
 *-minimum ligandability score for SAS point be considered ligandable*
