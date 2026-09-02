@@ -1,11 +1,11 @@
 **make own prank pocket predictions (P2RANK)**
 
-*-minimum ligandability score for SAS point be considered ligandable*
+* -minimum ligandability score for SAS point be considered ligandable*
 
 pred_point_threshold = 0.35
 
 
-*-minimum cluster size (of ligandable points) for initial clustering*
+* -minimum cluster size (of ligandable points) for initial clustering*
 
 pred_min_cluster_size = 3
 
