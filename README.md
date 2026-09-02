@@ -1,6 +1,6 @@
 # GRASP pocket clustering
 
-[`grasp_cluster_pockets_with_residues.ipynb`](grasp_cluster_pockets_with_residues.ipynb) groups high-scoring protein atoms into predicted pockets using the GRASP score stored in each PDB atom's B-factor column. It reports the residue IDs belonging to each retained pocket.
+[`grasp_cluster_pockets_with_residues.ipynb`](colab.research.google.com/github/xinyugu1997/grasp_pockets/blob/main/grasp_cluster_pockets_with_residues.ipynb) groups high-scoring protein atoms into predicted pockets using the GRASP score stored in each PDB atom's B-factor column. It reports the residue IDs belonging to each retained pocket.
 
 Run the notebook from top to bottom, choose the settings in the control panel, and click **Run clustering**. In Google Colab, the first cells install the dependencies and prompt you to upload `site_metrics.py` and the scored PDB.
 
