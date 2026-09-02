@@ -1,0 +1,53 @@
+[INFO] Writable - predicting pockets for proteins from dataset [6ty3.pdb]
+[INFO] PredictPocketsRoutine - outdir: ./out
+[INFO] Model - Loading model from directory (v3 format): /home/xg23/p2rank_2.6-alpha/models/alphafold
+[INFO] FeatureSetup - effectively enabled features: [chem, volsite, protrusion, atom_table]
+[INFO] Dataset - processing dataset [6ty3.pdb] using 9 threads
+[INFO] Dataset - 
+------------------------------------------------------------------------------------------------------------------------
+processing [6ty3.pdb] (1/1)
+------------------------------------------------------------------------------------------------------------------------
+
+[INFO] Writable - processing [6ty3.pdb] (1/1)
+[INFO] Protein - loading protein [/home/xg23/6TY3/p2rank/6ty3.pdb]
+[INFO] PdbUtils - loading file [6ty3.pdb]
+[INFO] Struct - all groups in chain A: 600
+[INFO] Struct - all groups in chain A: 600
+[INFO] Struct - 600 groups in chain A
+[INFO] Protein - structure atoms: 4853
+[INFO] Protein - protein   atoms: 4747
+[INFO] Protein - ignoring ligands
+[INFO] FeatureSetup - effectively enabled features: [chem, volsite, protrusion, atom_table]
+[INFO] Protein - SAS points: 10235
+[INFO] Protein - exposed protein atoms: 3579 of 4747
+[INFO] PocketPredictor - PREDICTING POCKETS.... ====================================
+[INFO] PocketPredictor - SAS POINTS: 10235
+[INFO] SLinkClustererV2 - clusters (24): sizes [3, 2, 15, 1, 7, 8, 6, 1, 3, 2, 2, 14, 6, 1, 2, 2, 6, 24, 2, 3, 1, 2, 1, 2]
+[INFO] SLinkClustererV2 - clusters together: 116 / 116
+[INFO] SingleLinkageClustering - LIGANDABLE POINTS: 116
+[INFO] SingleLinkageClustering - CLUSTERS: 24
+[INFO] SingleLinkageClustering - FILTERED CLUSTERS: 11
+[INFO] PocketPredictor - pocket 1 -  surf_atoms:  40   points:  24   score:   11.5
+[INFO] PocketPredictor - pocket 2 -  surf_atoms:  28   points:  15   score:    9.0
+[INFO] PocketPredictor - pocket 3 -  surf_atoms:  32   points:  14   score:    8.4
+[INFO] PocketPredictor - pocket 4 -  surf_atoms:  28   points:   8   score:    6.3
+[INFO] PocketPredictor - pocket 5 -  surf_atoms:  17   points:   6   score:    5.6
+[INFO] PocketPredictor - pocket 6 -  surf_atoms:  18   points:   3   score:    4.5
+[INFO] PocketPredictor - pocket 7 -  surf_atoms:  17   points:   7   score:    3.4
+[INFO] PocketPredictor - pocket 8 -  surf_atoms:  17   points:   6   score:    3.3
+[INFO] PocketPredictor - pocket 9 -  surf_atoms:  16   points:   6   score:    3.1
+[INFO] PocketPredictor - pocket10 -  surf_atoms:  14   points:   3   score:    2.0
+[INFO] PocketPredictor - pocket11 -  surf_atoms:   7   points:   3   score:    1.1
+[INFO] Protein - loading protein [/home/xg23/6TY3/p2rank/6ty3.pdb]
+[INFO] PdbUtils - loading file [6ty3.pdb]
+[INFO] Struct - all groups in chain A: 600
+[INFO] Struct - all groups in chain A: 600
+[INFO] Struct - 600 groups in chain A
+[INFO] Protein - structure atoms: 4853
+[INFO] Protein - protein   atoms: 4747
+[INFO] Protein - ignoring ligands
+[INFO] PredictionVisualizer - copying [/home/xg23/6TY3/p2rank/6ty3.pdb] to [./out/visualizations/data/6ty3.pdb]
+[INFO] Writable - predicting pockets finished in 0 hours 0 minutes 3.440 seconds
+[INFO] Writable - results saved to directory [/home/xg23/6TY3/p2rank/out]
+[INFO] Console - 
+[INFO] Console - Finished successfully in 0 hours 0 minutes 4.785 seconds.
